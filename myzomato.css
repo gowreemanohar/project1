@@ -1,0 +1,54 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    /* for removing all the default spaces around the page in browser */
+}
+body{
+    font-family: 'Merriweather', serif;
+    background-color:#ebf2ff;
+    overflow-x:hidden;
+    /* scroll:auto; */
+    transition:all 0.5s;
+
+}
+.navbar{
+    position:sticky;
+    top:0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    /* padding: 20 30px; */
+    /* padding: 100px; */
+    z-index: 9999;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+}
+.brand__logo{
+    width:100%;
+    height:100%;
+}
+.navbar__brand{
+    width: 100px;
+    /* height:100px; */
+    
+}
+button{
+    background-color:transparent;
+    border: none;
+}
+.primary__button{
+    background-image: linear-gradient(to right, #ff512f 0%, #dd2476 51%, #ff512f 100%);
+    padding:10px;
+    color:white;
+    border-radius: 4px;
+    transition:1s;
+
+}
+.primary__button:hover{
+    background-position: right center;
+    color:white;
+    background-size: 200% auto;
+    cursor: pointer;
+}
